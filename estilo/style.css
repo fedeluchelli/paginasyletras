@@ -108,6 +108,13 @@ header{
     background-image: url('./img/FOTOS/prof3.PYL.jpg');
     background-size:cover;
 }
+.gris img{
+    display: none;
+}
+.gris2 img{
+    display: none;
+}
+
 
 .blanco {
     flex-basis: 55%;
@@ -164,7 +171,9 @@ header{
     background-image: url('./img/FOTOS/mapa.PYL.png');
     background-size:cover;
 }
-
+.MAPA img{
+    display: none;
+}
 
 /* * * * * * * * * * * */
 
@@ -225,6 +234,7 @@ p {
 
 .segundoTexto-Contenido2{
     margin: 50px;
+    text-align: justify
 }
 
 .contenido2FONDO{
@@ -251,6 +261,135 @@ footer{
     padding-top:10px;
 }
 .contacto{
-    color: antiquewhite;
+    color: white;
     font-size: 18px
 }
+
+
+
+/*  RESPONSIVE  */
+
+@media (max-width: 768px) {
+    .titulo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .titulo img {
+      max-width: 100%;
+      height: auto;
+      float: none;
+      margin-bottom: 10px;
+    }
+  
+    .nav ul {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 0;
+    }
+  
+    .nav ul li {
+      margin-right: 10px;
+      font-size: 10px;
+    }
+  
+    .centered-main h2 {
+      font-size: 20px;
+    }
+  
+    .contenidoIMG {
+      height: 200px;
+    }
+  
+    .contenidoIMG h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .contenido2 h2{
+        margin-top: 50px;
+    }
+
+    .contenido2FONDO{
+        margin-top: -80px;
+    }
+  
+    .contenido1, .contenido2, .contenido2FONDO p{
+      font-size: 12px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+ 
+    .contenido1 h3, .contenido2 h3, .contenido2FONDO h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .div-4060, .div-6040 {
+      flex-wrap: wrap;
+    }
+  
+    .gris, .gris2, .blanco, .blanco2, .sesenta, .MAPA{
+      flex-basis: 100%;
+    }
+    .gris2{
+        display: none;
+    }
+    .blanco2 p{
+        font-size: 12px;
+    }
+    .imagenes {
+      padding-top: 10px;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .imagen {
+      max-height: 150px;
+    }
+  
+    .contenido1-tarjetas {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .sesenta li {
+      font-size: 12px;
+    }
+  
+    footer {
+      padding: 20px;
+    }
+  
+    .contacto {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .MAPA img{
+        display: block; /* Asegurarse de que la imagen ocupe todo el ancho disponible */
+        max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+        height: auto; /* Ajustar la altura automáticamente según el ancho */
+        visibility:hidden; /* Hacer que la imagen sea visible */
+    }
+    .gris img{
+        display: block; /* Asegurarse de que la imagen ocupe todo el ancho disponible */
+        max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+        height: auto; /* Ajustar la altura automáticamente según el ancho */
+        visibility:hidden;  
+    }
+    .gris2 img{
+        display: block; /* Asegurarse de que la imagen ocupe todo el ancho disponible */
+        max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+        height: auto; /* Ajustar la altura automáticamente según el ancho */
+        visibility:hidden;  
+    }
+  }
