@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    padding: 20px;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+  
+.titulo img {
+    float: left;
+    width: 50%;
+}
+  
+.titulos {
+    margin-left: 10px;
+}
+
+.nav{
+    margin-top: 50px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+
+}
+.nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+.centered-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.centered-main h2{
+    font-size: 35px;
+}
+
+.contenidoIMG {
+    background-image: url('./img/FOTOS/frontSinLogo.PYL.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contenidoIMG h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+
+.contenido1{
+    width: 80%;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.contenido1 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.imagenes {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.div-4060 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+}
+  
+.gris {
+    flex-basis: 45%;
+    background-image: url('./img/FOTOS/prof3.PYL.jpg');
+    background-size:cover;
+}
+
+.blanco {
+    flex-basis: 55%;
+    padding: 20px;
+}
+.blanco h3{
+    color: rgb(41, 41, 41);
+}
+.blanco p{
+    font-size: 20px;
+    text-align: justify;
+}
+.blanco .italia {
+    font-style: italic;
+}
+
+
+.blanco2 {
+    flex-basis: 60%;
+    padding: 10px;
+}
+.blanco2 h3{
+    color: rgb(41, 41, 41);
+}
+.blanco2 p{
+    font-size: 20px;
+    text-align: justify;
+}
+.gris2 {
+    flex-basis: 40%;
+    background-image: url('./img/EXIGENCIAS/banner2.PYL.png');
+    background-size:cover;
+}
+
+
+
+
+/* * * * * * * * * * *  */
+
+.div-6040 {
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+.sesenta {
+    flex-basis: 60%;
+    text-align: justify;
+}
+.sesenta li{
+    font-size: 18px;
+}
+.MAPA{
+    flex-basis: 40%;
+    background-image: url('./img/FOTOS/mapa.PYL.png');
+    background-size:cover;
+}
+
+
+/* * * * * * * * * * * */
+
+.contenido1-tarjetas{
+    width: 80%;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+}
+.tarjeta {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.tarjeta li {
+    font-size: 15px;
+}
+
+.imagen {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+  
+h3 {
+    margin-top: 10px;
+}
+  
+p {
+    margin-bottom: 10px;
+}
+  
+
+ 
+/* * * * * * * * * * * * * * * * */
+
+.contenido2{
+    width: 80%;
+    font-size: 23px;
+    margin-top: 80px;
+}
+.contenido2 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.imagenes {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.segundoTexto-Contenido2{
+    margin: 50px;
+}
+
+.contenido2FONDO{
+    width: 80%;
+    font-size: 23px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.contenido2FONDO h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* * * * * * * * * * * * * * * * */
+
+footer{
+    height: 20vh;
+    background-color: #222223;
+    padding: 30px;
+}
+.futer{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+}
+.contacto{
+    color: antiquewhite;
+    font-size: 18px
+}
