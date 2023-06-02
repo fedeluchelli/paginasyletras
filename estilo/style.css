@@ -303,6 +303,14 @@ footer{
     .contenidoIMG {
       height: 200px;
     }
+
+    .segundoTexto-Contenido2{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .segundoTexto-Contenido2 p{
+        font-size: 13px;
+    }
   
     .contenidoIMG h2 {
       font-size: 30px;
@@ -315,8 +323,9 @@ footer{
 
     .contenido2FONDO{
         margin-top: -80px;
+
     }
-  
+
     .contenido1, .contenido2, .contenido2FONDO p{
       font-size: 12px;
       margin-bottom: 30px;
@@ -345,8 +354,12 @@ footer{
       padding-top: 10px;
       justify-content: center;
       gap: 10px;
+      margin-bottom: 100px;
     }
-  
+    .imagenes img{
+        height: 100px;
+    }
+
     .imagen {
       max-height: 150px;
     }
